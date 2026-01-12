@@ -129,16 +129,25 @@ cursor: pointer;
    font-family: monospace;
 }
 
-.brands .headline h2{
+.new-arrivals{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arrivals-title h2{
   font-size: 30px;
   margin: 20px;
   text-align: center;
   font-family: cursive;
 }
 
-.Products-img{
-   display: flex;
-   padding: 10px;
+.product-area{
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 4rem 0;
 }
 
 .Products-img img{
@@ -147,13 +156,13 @@ cursor: pointer;
   border-radius: 10px;
 }
 
-.button-box{
+.arrival-cta{
   display: flex;          
   justify-content: center;
   align-items: center; 
 }
 
-.button-box .view-all{
+.arrival-cta button{
   padding: 12px 38px;
   margin: 20px;
   background: none;
